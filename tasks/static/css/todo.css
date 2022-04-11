@@ -1,0 +1,64 @@
+body{
+  font-size: 18px;
+  background: url('../images/bgdesktop.jpg')no-repeat;
+  background-size: 100%;
+  background-color: hsl(235, 21%, 11%);
+
+}
+
+.col-6{
+  margin-top:100px;
+}
+h1{
+  font-size:50px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:700;
+  color: white;
+}
+
+.form{
+  margin-top:20px;
+  padding:15px;
+  color: hsl(234, 39%, 85%);
+  background : hsl(235, 24%, 19%);
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:400;
+  font-size: 18px
+}
+.form input[type=text]{
+  width:90%;
+}
+.todos{
+  background-color:hsl(235, 24%, 19%);
+  margin-top:25px;
+}
+.todos p{
+
+  padding:10px;
+  padding-top:20px;
+  margin-left:15px;
+  font-size: 18px;
+  color: hsl(234, 39%, 85%);
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:400;
+}
+.tasks{
+  border-bottom:solid 1px hsl(233, 14%, 35%);
+}
+#id_title{
+  background-color:hsl(235, 24%, 19%);
+  border:none;
+  display: flex;
+  padding:10px;
+}
+input:focus, textarea:focus, select:focus{
+       outline: none;
+   }
+.menu{
+  display:flex;
+  padding:15px;
+  background : hsl(235, 24%, 19%);
+}
+.menu p{
+  color:white;
+}
